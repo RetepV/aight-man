@@ -14,22 +14,13 @@ Do not ask me anything about the code. It is all vibe-coded (really, can you cal
 
 Note that if you want to run it, you'll have to define a proper curses-supported terminal. I use terminal type 'xterm-16color', which works great on SporosTerm when it's set to ANSI/VT emulation.
 
-Also, here is a small script that I use to manually set up an agetty shell on a serial port:
+Check out `ttyshell.sh` for the script that I use to manually start an agetty on a serial port.
 
-```
-#!/bin/bash
-sudo killall agetty 2> /dev/null
-AGETTY_PORT="ttyUSB0"
-sudo setsid /sbin/agetty -8 -h -J ${AGETTY_PORT} 921600,460800,230400,115200,9600,2400,110 decansi
-echo "agetty started on /dev/${AGETTY_PORT}"
-ps -ef | grep agetty | grep -v grep
-```
-
-This was my prompt:
+### This was my prompt:
 
 > Write a pac-man game in Python for an ANSI serial terminal. Be as close to the original Pac-Man arcade game as possible, but use ANSI terminal escape codes for rendering. Render Pac-Man and the ghosts as one character. Use only ASCII character codes. Use the curses module from the Python Standard Library. Make the display size fixed 80 columns by 24 rows. Make the maze as similar to the arcade pac-man as possible, within the constraints of the display. The dots, power pills, pac-man and ghosts can be one character of size. Implement all gameplay details of the original pac-man arcade game.
 
-Claude's reply:
+### Claude's reply:
 
 > The game is done and verified: [pacman.py](pacman.py) runs cleanly in a real terminal session (exit 0, maze, dots, Pac-Man, and ghosts all rendering), and its built-in headless self-test passes. Run it with `python3 pacman.py` in any 80×24-or-larger terminal; `python3 pacman.py --selftest` checks the game logic without a terminal.
 > 
