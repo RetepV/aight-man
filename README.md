@@ -8,7 +8,7 @@ It's a pac man clone made for TTY terminals, built on top of curses!
 
 It was rigged together by Claude Opus 4.8. Apparently Opus 4.8 was fed with enough information about Pac-Man, probably including some Pac-Man clones that people wrote over the years, to come up with this fully working, and I guess quite faithful, Pac-Man clone **in one go**.
 
-I wanted it for testing my SporosTerm terminal and testing out Claude. No other reason. It was all just for fun, really. And Clause did indeed amaze me with the result.
+I wanted it for testing my SporosTerm terminal and testing out Claude. No other reason. It was all just for fun, really. And Claude did indeed amaze me with the result.
 
 Do not ask me anything about the code. It is all vibe-coded (really, can you call one prompt "vibe-coded"?). I did not make an attempt at understanding it. Because I don't care, not because I can't understand it. I will confess that I do feel some guilt. I could have perfectly written this game myself. Just not in the 10 or so minutes that it took for Claude to write.
 
