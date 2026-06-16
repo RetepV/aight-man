@@ -2,7 +2,7 @@
 
 This is "aight-man", the **A**rtificial **I**ntelligence **G**erry-rigged **H**allucinated **T**TY pac<b>-man</b>!
 
-It's a pac man clone made for TTY terminals, built on top of curses!
+It's a pac man clone made for TTY terminals, built on top of curses and written in Python!
 
 <img width="640" height="932" alt="IMG_4664" src="https://github.com/user-attachments/assets/7c9d3b69-bb29-4812-b9aa-81db4f781b3e" />
 
@@ -10,7 +10,7 @@ It was rigged together by Claude Opus 4.8. Apparently Opus 4.8 was fed with enou
 
 I wanted it for testing my SporosTerm terminal and testing out Claude. No other reason. It was all just for fun, really. And Claude did indeed amaze me with the result.
 
-Do not ask me anything about the code. It is all vibe-coded (really, can you call one prompt "vibe-coded"?). I did not make an attempt at understanding it. Because I don't care, not because I can't understand it. I will confess that I do feel some guilt. I could have perfectly written this game myself. Just not in the 10 or so minutes that it took for Claude to write.
+Do not ask me anything about the code. It is all vibe-coded (really, can you call one prompt "vibe-coded"?). I did not make an attempt at understanding it. Because I don't care, not because I can't understand it. I will confess that I do feel some guilt. I could have perfectly written this game myself. Just not in the 10 or so minutes that it took for Claude to write. It runs using Python 3.12.3, and probably other versions as well.
 
 Note that if you want to run it, you'll have to define a proper curses-supported terminal. I use terminal type 'xterm-16color', which works great on SporosTerm when it's set to ANSI/VT emulation.
 
