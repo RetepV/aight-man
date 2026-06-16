@@ -10,7 +10,9 @@ It was rigged together by Claude Opus 4.8. Apparently Opus 4.8 was fed with enou
 
 I wanted it for testing my SporosTerm terminal and testing out Claude. No other reason. It was all just for fun, really. And Clause did indeed amaze me with the result.
 
-Note that if you want to run it, you'll have to define a proper supported terminal. I use terminal type 'decansi' (export $TERM="decansi") which gives 16 colors on SporosTerm. But it also runs fine in Linux's console, which uses default "xterm-256color".
+Do not ask me anything about the code. It is all vibe-coded (really, can you call one prompt "vibe-coded"?). I did not make an attempt at understanding it. Because I don't care, not because I can't understand it. ;)
+
+Note that if you want to run it, you'll have to define a proper curses-supported terminal. I use terminal type 'xterm-16color', which works great on SporosTerm when it's set to ANSI/VT emulation.
 
 Also, here is a small script that I use to manually set up an agetty shell on a serial port:
 
