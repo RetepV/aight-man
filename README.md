@@ -12,7 +12,7 @@ I wanted it for testing my SporosTerm terminal and testing out Claude. No other 
 
 Do not ask me anything about the code. It is all vibe-coded (really, can you call one prompt "vibe-coded"?). I did not make an attempt at understanding it. Because I don't care, not because I can't understand it. I will confess that I do feel some guilt. I could have perfectly written this game myself. Just not in the 10 or so minutes that it took for Claude to write. It runs using Python 3.12.3, and probably other versions as well.
 
-Note that if you want to run it, you'll have to define a proper curses-supported terminal. I use terminal type 'xterm-16color', which works great on SporosTerm when it's set to ANSI/VT emulation.
+Note that if you want to run it, you'll have to define a proper curses-supported terminal. I use terminal type `xterm-16color`, which works great on SporosTerm when it's set to ANSI/VT emulation.
 
 Check out `ttyshell.sh` for the script that I use to manually start an agetty on a serial port.
 
